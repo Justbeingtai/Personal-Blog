@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#blog-posts {
+  margin-top: 20px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#back-button {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+}
